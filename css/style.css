@@ -1,0 +1,60 @@
+/*This sets the font, background and text colors for the entire application*/
+body{
+    font-family: Comic Sans Ms;
+    background-color: rgb(32, 50 ,26);
+    color: rgb(199, 155, 41);
+}
+/*This sets the text color on the navbar*/
+.text-color{
+    color: rgb(51, 82, 40);
+}
+/*This set the padding and background color for the jumbotron */
+.jumbotron{
+    background-color: rgb(51, 82, 40);
+    padding: 0;
+}
+/*This allows the jumbotron to not be covered by the navbar*/
+.layer{
+    margin-top: 56px
+}
+/*This makes the background and text color for the buttons*/
+.bg-color{
+   color: rgb(51, 82, 40);
+   background-color: rgb(199, 155, 41);
+}
+/*This sizes the font and for the jumbotron title*/
+#fontSize{
+    font-size: 3.5em;
+}
+/*This makes the text color of the links on the page*/
+.link-text-color{
+    color: rgb(199, 155, 41);
+}
+/*This makes the links stack on top of each other instead of side by side*/
+.link-display{
+    display: block;
+    text-decoration: underline;
+}
+/*This makes border and rounded edges of the buttons*/
+.btn-border{
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+}
+/*This removes the dots next to the li*/
+li{
+    list-style-type: none;
+}
+/*This makes the display none override other css properties*/
+.hidden{
+    display: none !important;
+}
+/*This sizes the house, brain and ?! icons next to the links on the navbar*/
+img{
+   height: 1.5em;
+   width: 1.5em;
+}
+/*This makes the background color for the footer */
+.footer-colors{
+    background-color: rgb(51, 82, 40);
+
+}
