@@ -650,29 +650,29 @@ function goToNextQuestion(e) {
     return correctAnswer;
 };
 //This gets the user information from localStorage and sorts it so that the user can be placed in the highScores table automatically when they've finished the quiz
-// function highScoreUserInfo(){
-//     let userInfo;
-//     let newUserInfo;
-//     if (beginner) {
-//         userInfo = localStorage.getItem('beginnerUserName');
-//     } else if (intermediate) {
-//         userInfo = localStorage.getItem('intermediateUserName');
-//     } else if (expert) {
-//         userInfo = localStorage.getItem('expertUserName');
-//     };
-//     newUserInfo = JSON.parse(userInfo);
-//     newUserInfo.sort(function (a, b) {
-//         return b.correct - a.correct;
-//     });
-//     for (let i = 0; i < 5; i++) {
-//         let tdCell = document.getElementById(`highScore${i}`);
-//         console.log(tdCell);    
-//         if(newUserInfo[i]){
-//             let userHighScore = newUserInfo[i].name;
-//             tdCell.innerText = userHighScore;
-//         };
-//     };
-// };
+function highScoreUserInfo(){
+    let userInfo;
+    let newUserInfo;
+    if (beginner) {
+        userInfo = localStorage.getItem('beginnerUserName');
+    } else if (intermediate) {
+        userInfo = localStorage.getItem('intermediateUserName');
+    } else if (expert) {
+        userInfo = localStorage.getItem('expertUserName');
+    };
+    newUserInfo = JSON.parse(userInfo);
+    newUserInfo.sort(function (a, b) {
+        return b.correct - a.correct;
+    });
+    for (let i = 0; i < 5; i++) {
+        let tdCell = document.getElementById(`highScore${i}`);
+        console.log(tdCell);    
+        if(newUserInfo[i]){
+            let userHighScore = newUserInfo[i].name;
+            tdCell.innerText = userHighScore;
+        };
+    };
+};
 //This function creates a message for the user to have a good morning, afternoon or evening when they have finished their quiz
 function goodDay(name) {
     const time = new Date();

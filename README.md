@@ -1,8 +1,5 @@
 # WELCOME TO ARE YOU A CODING WIZARD?
 
-  I made this app while incarcerated. I built my apps without the internet. There is a button and modal on each of the quiz HTML pages commented out because in the transition from prison to home something has gone wrong. I also commented out the code that goes with the button and modal in the main.js. I am continuing to work on getting the button functional. I wanted to get my project on github to be able to show my work. Feel free to comment the code in to see what it looks like. The code in the main.js will console.log the information that will be displayed in the modal. Have fun taking the quizzes to see if you're a coding wizard!!
-
-
   This is a quiz app that...
    ## 1.GIVES YOU 3 DIFFERENT QUIZZES
         a. Beginner
@@ -25,3 +22,5 @@
     I want to help people in honing their skills by testing them depending on skill level.
 
     I may look into making a more advanced quiz once I get more experience in coding myself. Maybe develop it so you're able to log in and retrieve your scores from a database.
+
+    Take the quizzes to see if you're a coding wizard
